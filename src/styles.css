@@ -2,11 +2,11 @@
 * CSS file to hold styles that apply across the application
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
-
+/* @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
 html,
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family:  'Noto Sans', sans-serif;;
   height: 100%;
   margin: 0;
   overflow-x: hidden;
@@ -56,14 +56,14 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  font-weight: 400;
+  font-weight: bold;
   margin: 0;
   padding-top: 1rem;
   color: black;
 }
 
 h3 {
-  font-weight: 400;
+  font-weight: bold;
   font-size: 1.25rem;
   margin: 0;
 }
@@ -72,7 +72,7 @@ p {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 68px;
-  font-weight: 300;
+  font-weight: bold;
 }
 
 p.large {

@@ -16,7 +16,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/socials/About-bg-ps.gif";
+import image from "../images/motion-background.jpg";
 
 // const imageAltText = "purple and blue abstract background";
 
@@ -62,11 +62,12 @@ const About = () => {
           paddingBottom:"5rem",
           margin: "3rem auto",
           textAlign: "center",
-          color:"white"
+          color:"black",
+          fontWeight: "bold",
         }}
       > 
-        <h2 style={{color: "white"}}>About Myself</h2>
-        <p className="large">{description}</p>
+        <h2 style={{color: "black" , fontWeight: "bold"}}>About Myself</h2>
+        <p className="large" style={{color: "black" , fontWeight: "bold"}} >{description}</p>
         <hr />
         <ul
           style={{
@@ -75,6 +76,8 @@ const About = () => {
             fontSize: "1.25rem",
             margin: "2rem 3rem",
             gap: "3rem",
+            color: "black",
+            fontWeight: "bold",
           }}
         >
           {skillsList.map((skill) => (
@@ -82,7 +85,7 @@ const About = () => {
           ))}
         </ul>
         <hr />
-        <p style={{ padding: "1rem 3rem 0" }}>{detailOrQuote}</p>
+        <p style={{ padding: "1rem 3rem 0", color: "black" , fontWeigh: "bold" }}>{detailOrQuote}</p>
       </div>
     </section>
   );

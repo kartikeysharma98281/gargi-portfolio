@@ -10,7 +10,7 @@
 
 import React from "react";
 
-import image from "../images/socials/projects-ps-bg.gif";
+import image from "../images/gs-portfolio-pic.png";
 
 // const imageAltText = "desktop with books and laptop";
 
@@ -54,7 +54,7 @@ const Portfolio = () => {
               <a href={project.url} target="_blank" rel="noopener noreferrer">
                 <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
               </a>
-              <p className="small">{project.description}</p>
+              <p className="small" style={{color:"black" , fontWeight: "bold"}}>{project.description}</p>
             </div>
           ))}
         </div>
